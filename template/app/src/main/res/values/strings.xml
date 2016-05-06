@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 
+    This document contains:
+    -Required setup information
+    -Strings for translation
+    
+    Notations:
+    -When a string value starts en ends with a " this is only to maintain spaces, the " will not be visible 
+    -To do a line break, use \n and to escape characters use \character (e.g.: \" will make the " visible)
+
+    @author Sherdle
+    -->
+    
+    <string name="app_name">JJVM</string>
+    
+    <!-- API keys -->
+    <string name="twitter_api_consumer_key">YOURCONSUMERKEYHERE</string>
+    <string name="twitter_api_consumer_secret_key">YOURSECRETKEYHERE</string>
+    <string name="google_server_key">AIzaSyCke5lzJeNWMrLY7B-ehsSekvMkpTcc7Mw</string>
+    <string name="google_android_key">AIzaSyDbmSsH3hjd4DE_9suGDw8Dijjzh618hBw</string>
+    <string name="instagram_access_token">YOURINSTAGRAMIDHERE</string>
+    <string name="facebook_access_token">YOURFACEBOOKTOKENHERE</string>
+    <string name="soundcloud_id">YOURSOUNDCLOUDIDHERE</string>
+    
+    <!-- About text, you can use basic html, stay between [ and ] -->
+    <string name="about_text"><![CDATA[   
+    <b>Version 1.0</b>
+    <br><br>Gracias por descargar la aplicación<br><br>
+    <i>AlusorStroke 2016&#174;</i>
+    ]]></string>
+    
+    <!-- Enter your Google Play billing details to enable In-App purchases -->
+    <string name="google_play_license"></string>
+	<string name="product_id"></string>
+	
+    <!-- Enter a ADMOB ID if you would like to display ads-->
+    <string name="ad_id"></string>
+    
+    <!-- RSS Push Notification, we will check this feed for new articles and notify the user, frequency in min-->
+    <string name="rss_push_url"></string>
+    <item type="integer" name="frequency">5</item>
+    
+    <!-- Strings for optional translation below this line -->
+    
+    <!-- twitter section -->
+    
+    <string name="tweet">tweet</string>
+    <string name="name">Nombre</string>
+    <string name="username">Usuario</string>
+    <string name="profile_image">Foto de perfil</string>
+    <string name="message">Mensaje</string>
+    <string name="tweet_date">Tweeted el</string>
+    <string name="tweet_get_failed">Intenta de nuevo!</string>
+    
+    <string name="tweet_share_header">\'s tweet</string>
+    
+    <!-- rss -->
+    <string name="item_get_failed">No logramos cargar mas elementos :(!</string>
+    <string name="ok">Ok</string>
+    <string name="feed_title_value">Titulo</string>
+    <string name="feed_link_value">Descripción</string>
+    <string name="feed_description_value">Link</string>
+    
+    <string name="item_share_begin">"\n\nArticle Link: "</string>
+    <string name="item_share_middle">" Seen in the \""</string>
+    <string name="item_share_end">\" app</string>
+    <string name="notification_title">New articles</string>
+    <string name="notification_message">New items available!</string>
+    
+    <string name="btn_video">Play video</string>
+    <string name="btn_audio">Play audio</string>
+    
+    <!-- youtube -->
+    <string name="video_get_failed">Nos fue imposible obtener mas videos.!</string>
+    <string name="video_search_hint">Buscar en este canal</string>
+    <string name="video_navigation_previous">"Anterior "</string>
+    <string name="video_navigation_next">"Siguiente "</string>
+    <string name="video_navigation_end">" Resultados"</string>
+    <string name="play_button">Play</string>
+    
+    <string name="error_search_playlist">You can not search within a playlist</string>
+    
+    <string name="video_share_begin">"Yo vi este video: "</string>
+    <string name="video_share_middle">" en \""</string>
+    <string name="video_share_end">\" app</string>
+    
+    <string name="video_subtitle_start">"Subido el "</string>
+    <string name="video_subtitle_end">" por "</string>
+    
+    <!--  webview  -->
+    <string name="error_received">Problem loading page</string>
+    <string name="no_connection">No connection</string>
+    <string name="webview_title">Web</string>
+    <string name="alert">Alert</string>
+    
+    <string name="web_share_begin">"Look what I saw in the \""</string>
+    <string name="web_share_end">"\"app: "</string>
+    
+    <!-- favorites -->
+    <string name="item_del_text">Estas a punto de borrar todos tus favoritos.</string>
+    <string name="item_del_confirmation">Lo entiendo.</string>
+    <string name="no_favorites">Puedes agregar más favoritos abriendo los elementos y seleccionando “Favorito”.</string>
+    <string name="favorite_success">El elemento fue agregado.</string>
+    <string name="favorite_duplicate">El elemento ya es un favorito.</string>
+    <string name="favorite_menu_delete">Borrar.</string>
+    
+    <!-- settings -->
+    <string name="settings_general_summary">Username and password information</string>
+    <string name="settings_general">General</string>
+    
+    <string name="settings_showmenu_summary">Si/No</string>
+    <string name="settings_showmenu">Mostrar menú lateral al inicio </string>
+    
+    <string name="settings_rssnotify_summary">Get informed when there are new articles</string>
+    <string name="settings_rssnotify">Notifications</string>
+    
+    <string name="settings_fontsize_summary">Tamaño de texto preferido para artículos y post.</string>
+    <string name="settings_fontsize">Tamaño del text</string>
+    
+    <string name="settings_fontsize_xl">Extra Grande</string>
+    <string name="settings_fontsize_l">Grande</string>
+    <string name="settings_fontsize_m">Defecto</string>
+    <string name="settings_fontsize_s">Pequeñp</string>
+    <string name="settings_fontsize_xs">Extra pequeño</string>
+    
+    <string name="settings_other_summary">Otra información</string>
+    <string name="settings_other">Otros</string>
+    
+    <string name="settings_aboutus_summary">Información acerca de la aplicación</string>
+    <string name="settings_aboutus">Acerca de</string>
+    
+    <string name="settings_rate_summary">Ayudanos valorando la aplicación :D</string>
+    <string name="settings_rate">Califícanos</string>
+    
+    <string name="settings_billing_summary">Manage your In-App purchases</string>
+    <string name="settings_billing">In-App Products.</string>
+    
+    <string name="settings_purchase_summary">Removes ads and unlocks more content</string>
+    <string name="settings_purchase">Unlock extra features</string>
+    
+    <string name="settings_restore_purchase_success">Previous purchases have been restored.</string>
+    <string name="settings_purchase_success">Previous purchases have been restored.</string>
+    <string name="settings_purchase_fail">Purchase failed.</string>
+  
+    <string name="dialog_purchase_title">Content locked.</string>
+    <string name="dialog_purchase">In order to view this content, you need to unlock the full version by making a one time purchase.\n\nThis will also remove advertisements throughout the app.</string>
+    
+    <!-- Wordpress -->
+    <string name="wordpress_search_hint">Search this Blog</string>
+    <string name="wordpress_subtitle_start">"Published "</string>
+    <string name="wordpress_subtitle_end">" by "</string>
+    
+    <!-- Maps -->
+    <string name="navigate">Navigate</string>
+    <string name="maps_location_title">Waiting for location...</string>
+    <string name="maps_location_subtitle">Make sure GPS is on</string>
+    
+    <!-- media viewer and radio-->
+    <string name="volume_low">Turn your volume up!</string>
+    <string name="volume">Volume</string>
+	<string name="button_close">Close</string>
+	<string name="button_play">PLAY</string>
+	<string name="button_stop">STOP</string>
+	<string name="file_audio">Audio</string>
+	<string name="file_video">Video</string>
+	<string name="file_image">Image</string>
+    <string name="now_playing">Now playing</string>
+	<string name="notification_playing">Playing audio - Touch to stop</string>
+	<string name="radio_playing_other">Already Playing another station. You can press pause to play another station.</string>
+    <string name="downloadmanager_disabled">Download manager needs to be enabled</string>
+
+    <!-- tumblr -->
+    <string name="image_descr">Image</string>
+    <string name="set">Set</string>
+    <string name="save">Save</string>
+    <string name="tumblr_share_begin">Check out this post I saw in</string>
+    <string name="saved">Saved at:</string>
+    <string name="set_confirm">Are you sure you would like to set this image as wallpaper?</string>
+    <string name="set_success">You have set a new Wallpaper!</string>
+
+    <!-- SoundCloud -->
+    <string name="duration">%1$d:%2$02d</string>
+    <string name="toast_track_added">Added to the playlist. Touch again to play now.</string>
+    <string name="playback_view_time">%1$02d:%2$02d</string>
+    <string name="playback_view_title">&lt;b>%1$s&lt;/b> - %2$s</string>
+    
+    <!-- general-->   
+    <string name="share_header">Compartir</string>
+    <string name="about_header">Acerca de</string>
+    <string name="favorite_button">Favorito</string>
+    <string name="open_button">Abrir</string>
+    <string name="textview_date">"Fecha: "</string>
+    <string name="loading">Cargando..</string>
+    <string name="opening_video">Cargando video</string>
+    <string name="opening_audio">Cargando audio</string>
+    <string name="downloading">Descargando..</string>
+    <string name="empty_textview">Error cargando los datos.</string>
+    <string name="no_results">Sin resultados</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancelar</string>
+    <string name="comments">Comentarios</string>
+    <string name="section">Sección</string>
+    <string name="share">Compartir</string>
+    <string name="info">Información</string>
+    <string name="refresh">Actualizar</string>
+    <string name="search">Buscar</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="already_loading">Estamos cargando contenido nuevo!</string>
+    
+    <string name="drawer_open">Menu abierto</string>
+    <string name="drawer_close">Menu cerrado</string>
+    <string name="not_back">No hay a donde regresar.</string>
+    
+    <string name="permissions_required">Necesitas aceptar todos los permisos requeridos.</string>
+    
+    <!-- Connection dialogs -->
+        <string name="dialog_connection_title">Sin conexión</string>
+        <string name="dialog_connection_description">No hemos podido conectarnos en este momento, revisa tu conexión a internet.\n</string>
+    <string name="dialog_internet_title">Sin internet</string>
+    <string name="dialog_internet_description">Parece que no tienes conexión a internet, esta aplicación necesita internet para obtener el contenido.\n</string>
+
+</resources>
