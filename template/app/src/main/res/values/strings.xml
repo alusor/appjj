@@ -13,7 +13,7 @@
     @author Sherdle
     -->
     
-    <string name="app_name">JJVM</string>
+    <string name="app_name">JotaJotaVM</string>
     
     <!-- API keys -->
     <string name="twitter_api_consumer_key">YOURCONSUMERKEYHERE</string>
@@ -27,8 +27,8 @@
     <!-- About text, you can use basic html, stay between [ and ] -->
     <string name="about_text"><![CDATA[   
     <b>Version 1.0</b>
-    <br><br>Gracias por descargar la aplicación<br><br>
-    <i>AlusorStroke 2016&#174;</i>
+    <p>Contenido por: <b>José Javier Villena</b></p>
+    <i>Desarrollado por AlusorStroke 2016&#174;</i>
     ]]></string>
     
     <!-- Enter your Google Play billing details to enable In-App purchases -->

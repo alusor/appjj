@@ -30,10 +30,78 @@ public class Config {
 
         //Some sample content is added below, please refer to your documentation for more information about configuring this file properly
 		/*i.add(new NavItem("Section", NavItem.SECTION));*/
-        i.add(new NavItem("Sección",NavItem.SECTION));
-        i.add(new NavItem("Desarrollo web",0, NavItem.ITEM, VideosFragment.class,new String[]{
-                "PLraIUviMMM3eC5Gmk-cLwgpd5jUYJ2ilF","UCXTSbRTLCr9r8Ne_7ElnZQQ"
-        }));/*
+        i.add(new NavItem("Web",NavItem.SECTION));
+        i.add(new NavItem("Responsive Design",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3exWO3vj5nsKQays7XpLo67"
+        }));
+        i.add(new NavItem("Diseño Web",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3e_manR8pmKmU6NfTryIfI_"
+        }));
+        i.add(new NavItem("Juegos en Javascript",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3duPLEqSamvu-79XXEnqOVY"
+        }));
+        i.add(new NavItem("Menús Responsive",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3eq4PrjVEoDPTXi_S1hGkCi"
+        }));
+        i.add(new NavItem("Animaciones KeyFrame CSS3",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3fimKsDWwlzmunv7rlebPqm"
+        }));
+        i.add(new NavItem("Efectos y animaciones en 3D",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3dgMtQ0nmXx3_EkgqgKy8_k"
+        }));
+        i.add(new NavItem("Efectos Fotografricos CSS",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3fKL9mLBPkfUP0i6k5fmkyM"
+        }));
+        i.add(new NavItem("Atajos Sublime Text",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3ce9atym1MBKDcz8G0A6Wt9"
+        }));
+        /****************************************/
+        /*****************Aplicaciones**********/
+        i.add(new NavItem("Apps",NavItem.SECTION));
+        i.add(new NavItem("Android Basico",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3dbmrZv5MT8WHYThw5XqD8I"
+        }));
+        i.add(new NavItem("LibGDX",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3duiko5MtkFPN2vhm0URmkE"
+        }));
+        i.add(new NavItem("Swift",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3dVexwvWFLc-NOQJL0r0bMT"
+        }));
+        i.add(new NavItem("Juegos con Swift",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3eLb5qG5JzkuN4S1eHyAxvm"
+        }));
+        /****************************************/
+        /*****************Escritorio**********/
+        i.add(new NavItem("Desktop",NavItem.SECTION));
+        i.add(new NavItem("Java",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3fXkVeSku0Sf_FGNOjY4hfh"
+        }));
+        i.add(new NavItem("C++",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3et0VW1RdeHlXEJTN82Mt0H"
+        }));
+        i.add(new NavItem("Encriptación en Java",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3caN7AgjsA4efq0Aylpbn1l"
+        }));
+
+        /******************************************/
+        /**************Otros**********************/
+        i.add(new NavItem("Otros",NavItem.SECTION));
+        i.add(new NavItem("VideoBlogs",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3dDOHvE3LyrPfzkjqM1HkRG"
+        }));
+        i.add(new NavItem("Haskell",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3fbHLdBJDmBwcNBZd_1Y_hC"
+        }));
+        i.add(new NavItem("SEO",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3cdzz9K_5wDRzI6HVoJ54CA"
+        }));
+        i.add(new NavItem("Lenguajes de programación",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3fgJRSH5B1nFfsElyyILsSs"
+        }));
+        i.add(new NavItem("Inteligencia Artificial",0, NavItem.ITEM, VideosFragment.class,new String[]{
+                "PLraIUviMMM3cfUDGXox5PWTu07R1DOILG"
+        }));
+        /*
         i.add(new NavItem("Youtube Channel", R.drawable.ic_details, NavItem.ITEM, VideosFragment.class,
                 new String[]{"UU7V6hW6xqPAiUfataAZZtWA","UC7V6hW6xqPAiUfataAZZtWA"}));
         i.add(new NavItem("Youtube Playlist", R.drawable.ic_details, NavItem.ITEM, VideosFragment.class,
